@@ -1,0 +1,334 @@
+
+.card{
+
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+   -webkit-transition: all .1s ease-in-out;
+   &:hover{
+            transform: scale(1.03);
+            transition: all .1s ease-in-out;
+            -webkit-transition: all .1s ease-in-out;
+    
+        }
+}
+
+.card-pricing.card-background .card-body {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.card-background {
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-background .card-description,
+.card-background .category,
+.card-background small {
+    color: rgba(255, 255, 255, .8);
+}
+
+.card-description,
+.description,
+.footer-big p {
+    color: #9a9a9a;
+    font-weight: 300;
+}
+
+.card-pricing.card-background:after {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.card-background:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, .63);
+    border-radius: .25rem;
+}
+
+.category {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #9a9a9a;
+}
+
+.h1,
+h1 {
+    font-size: 3.5em;
+    line-height: 1.15;
+    margin-bottom: 30px;
+}
+
+.card-background .card-body {
+    position: relative;
+    z-index: 2;
+    min-height: 370px;
+    max-width: 530px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-pricing {
+    text-align: center;
+}
+
+.card-pricing .icon {
+    padding: 10px 0 0;
+}
+
+.icon.icon-primary {
+    color: #f96332;
+}
+
+.card-pricing .icon.icon-primary i {
+    box-shadow: 0 9px 30px -6px #f96332;
+    color: #f96332;
+}
+
+.card-pricing .icon i {
+    font-size: 30px;
+    line-height: 2.7;
+    max-width: 80px;
+    color: #888;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 9px 35px -6px rgba(0, 0, 0, .3);
+    background-color: #fff;
+    position: relative;
+}
+
+
+.now-ui-icons {
+    display: inline-block;
+    font: 14px/1 'Nucleo Outline';
+    font-size: inherit;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card-pricing .card-title {
+    margin-top: 30px;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+
+.card-pricing ul {
+    list-style: none;
+    padding: 0;
+    max-width: 240px;
+    margin: 10px auto;
+}
+
+.card-pricing ul li {
+    color: #888;
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(136, 136, 136, .3);
+}
+
+.card-description,
+.description,
+.footer-big p {
+    color: #9a9a9a;
+    font-weight: 300;
+}
+
+p {
+    line-height: 1.61em;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+[data-background-color]:not([data-background-color=gray]) .card-pricing.card-plain ul li,
+[data-background-color]:not([data-background-color=gray]) .icons-container i,
+[data-background-color]:not([data-background-color=gray]) .info.info-horizontal .icon i,
+[data-background-color]:not([data-background-color=gray]) .social-description h2,
+[data-background-color]:not([data-background-color=gray]) .title,
+[data-background-color]:not([data-background-color=gray]) a:not(.btn):not(.dropdown-item):not(.card-link),
+[data-background-color]:not([data-background-color=gray]) h1,
+[data-background-color]:not([data-background-color=gray]) h2,
+[data-background-color]:not([data-background-color=gray]) h3,
+[data-background-color]:not([data-background-color=gray]) h4,
+[data-background-color]:not([data-background-color=gray]) h5,
+[data-background-color]:not([data-background-color=gray]) h6,
+[data-background-color]:not([data-background-color=gray]) p,
+[data-background-color]:not([data-background-color=gray]) p.blockquote,
+[data-background-color]:not([data-background-color=gray]) p.blockquote small,
+[data-background-color]:not([data-background-color=gray]).card a:not(.btn):not(.dropdown-item),
+[data-background-color]:not([data-background-color=gray]).card-pricing ul li {
+    color: #fff;
+}
+
+
+.card .author .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.img-raised {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+}
+
+.card .card-footer {
+    padding: 0;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 0;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
+
+
+.card .card-footer div {
+    display: inline-block;
+}
+
+
+.card .card-footer .stats.stats-right {
+    float: right;
+    line-height: 30px;
+}
+
+.card .card-footer div {
+    display: inline-block;
+}
+
+
+.card:not(.card-plain) .rounded {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.card .rounded {
+    border-radius: .1875rem;
+}
+
+.rounded {
+    border-radius: .25rem !important;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.card .author span {
+    color: #9a9a9a;
+}
+
+.card:not(.card-product) .card-footer .stats .now-ui-icons {
+    position: relative;
+    top: 3px;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.card:not(.card-product) .card-footer .stats i {
+    color: #a2a1a1;
+}
+
+
+.card a:not(.btn):not(.nav-link):not([data-toggle=collapse]):not(.footer-link) {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    color: #444;
+}
+
+.bootstrap-switch-label:before,
+.card a {
+    transition: all 150ms ease 0s;
+}
+
+[data-background-color]:not([data-background-color=gray]) .author span,
+[data-background-color]:not([data-background-color=gray]) .card-category,
+[data-background-color]:not([data-background-color=gray]) .card-pricing.card-plain ul li b,
+[data-background-color]:not([data-background-color=gray]) .card-pricing.card-plain ul li i,
+[data-background-color]:not([data-background-color=gray]).card-pricing ul li b,
+[data-background-color]:not([data-background-color=gray]).card-pricing ul li i {
+    color: rgba(255, 255, 255, .8) !important;
+}
+
+[data-background-color]:not([data-background-color=gray]) .card-pricing.card-plain ul li,
+[data-background-color]:not([data-background-color=gray]) .icons-container i,
+[data-background-color]:not([data-background-color=gray]) .info.info-horizontal .icon i,
+[data-background-color]:not([data-background-color=gray]) .social-description h2,
+[data-background-color]:not([data-background-color=gray]) .title,
+[data-background-color]:not([data-background-color=gray]) a:not(.btn):not(.dropdown-item):not(.card-link),
+[data-background-color]:not([data-background-color=gray]) h1,
+[data-background-color]:not([data-background-color=gray]) h2,
+[data-background-color]:not([data-background-color=gray]) h3,
+[data-background-color]:not([data-background-color=gray]) h4,
+[data-background-color]:not([data-background-color=gray]) h5,
+[data-background-color]:not([data-background-color=gray]) h6,
+[data-background-color]:not([data-background-color=gray]) p,
+[data-background-color]:not([data-background-color=gray]) p.blockquote,
+[data-background-color]:not([data-background-color=gray]) p.blockquote small,
+[data-background-color]:not([data-background-color=gray]).card a:not(.btn):not(.dropdown-item),
+[data-background-color]:not([data-background-color=gray]).card-pricing ul li {
+    color: #fff;
+}
+
+[data-background-color]:not([data-background-color=gray]) {
+    color: #fff;
+}   
+
+
+[data-background-color][_ngcontent-c2]:not([data-background-color=gray]):not([data-background-color=black]){
+    color: #fff;
+    max-height: 165px;
+}
+
+
