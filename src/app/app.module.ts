@@ -9,11 +9,15 @@ import { ExamplesModule } from './examples/examples.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { ApiComponent } from './api/api.component';
+import { ChowkbazarComponent } from './chowkbazar/chowkbazar.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        NavbarComponent
+        NavbarComponent,
+        ApiComponent,
+        ChowkbazarComponent
     ],
     imports: [
         BrowserAnimationsModule,
